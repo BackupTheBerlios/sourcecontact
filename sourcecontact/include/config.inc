@@ -200,8 +200,8 @@ $ml_newsreqaddr = "sourcecontact-news-request@lists.berlios.de";
 $ml_weeklynewstoaddr = "sourcecontact-weeklynews@lists.berlios.de";
 $ml_weeklynewsreqaddr = "sourcecontact-weeklynews-request@lists.berlios.de";
 $ml_newsadmaddr = "sourcecontact-admin@lists.berlios.de";
-$ml_newsfromaddr = $ml_newsadmaddr;
-$ml_newsreplyaddr = $ml_newsadmaddr;
+$ml_newsfromaddr = "sourcecontact-crew@berlios.de";
+$ml_newsreplyaddr = "noreply@berlios.de";
 
 ######################################################################
 # Statistic configuration
