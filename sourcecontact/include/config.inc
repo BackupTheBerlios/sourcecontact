@@ -1,7 +1,7 @@
 <?php
 
 ######################################################################
-# SourceContact: Open Source Contact
+# SourceContact: Open Source Contact Management
 # ================================================
 #
 # Copyright (c) 2001-2003 by
@@ -44,7 +44,8 @@ $sys_logo_image = "images/berliOS_logo.png";
 $sys_logo_alt = "BerliOS";
 $sys_logo_width = "238";
 $sys_logo_heigth = "61";
-$sys_logo_small_image = "images/berliOS_small_logo.png";
+#$sys_logo_small_image = "images/berliOS_small_logo.png";
+$sys_logo_small_image = "http://developer.berlios.de/bslogo.php?group_id=130&type=1";
 $sys_logo_small_alt = $sys_logo_alt;
 $sys_logo_small_width = "124";
 $sys_logo_small_heigth = "32";
