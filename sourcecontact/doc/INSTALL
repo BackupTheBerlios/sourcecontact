@@ -1,0 +1,38 @@
+Fast Installation Guide
+-----------------------
+
+You need to have a webserver (we have tested the system with Apache),
+PHP3/4, PHPLib and MySQL installed on your system.
+
+Install the sourcecontact archive in a subdirectory of the 
+documents root directory of your web server.
+
+Use the installation scripts which guides you through the
+installation process. Start your browser with the URL:
+
+http://yourserver/sourcecontact/install.php
+
+and follow the instructions.
+
+Ok, that's it. You've finished installing and configuring
+SourceWell. Start your browser and visit
+
+http://yourserver/sourcecontact/
+
+If everything looks ok, great! As you'll see in the index page, the SourceContact system comes with some inserted example applications and licenses. You can
+delete or modify them by entering as an administrator. To do so, login
+as the default administrator with user,editor,admin permissions.
+At the prompt use the following username and password to login (case sensitive):
+
+        Username: admin
+	Password: admin
+
+
+Very important: Be sure that you immediately change the username and password by
+clicking on the Change User link. You'll notice this is quite easy to do ;-)
+
+Note: Translation support needs a lot of memory. We're looking for a better memory management for the translation function. If this is an important feature for you, think changing the php.ini allowed memory input. You should change the default line:
+memory_limit = 8388608; Maximum amount of memory a script may consume (8MB)  
+
+with this one:
+memory_limit = 33554432; Maximum amount of memory a script may consume (32MB)
